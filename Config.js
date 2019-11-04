@@ -1,0 +1,1 @@
+export const HOST_KEY = "192.168.43.224"

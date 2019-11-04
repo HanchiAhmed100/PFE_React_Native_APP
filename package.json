@@ -1,0 +1,50 @@
+{
+  "name": "TicketTT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.2.1",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "moment": "^2.24.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.1",
+    "react-native-awesome-alerts": "^1.2.0",
+    "react-native-cardview": "^2.0.2",
+    "react-native-config": "^0.11.7",
+    "react-native-dropdownalert": "^3.11.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-exception-handler": "^2.10.8",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-flash-message": "^0.1.13",
+    "react-native-gesture-handler": "~1.0.14",
+    "react-native-maps": "git://github.com/react-native-community/react-native-maps.git#master",
+    "react-native-modal": "^11.0.1",
+    "react-native-modal-overlay": "^1.3.1",
+    "react-native-notifications": "^1.3.0",
+    "react-native-push-notification": "^3.1.3",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-ratings": "^6.3.1",
+    "react-native-snackbar": "^0.5.5",
+    "react-native-textinput-effects": "^0.5.1",
+    "react-native-vector-icons": "^6.4.1",
+    "react-navigation": "^3.4.1",
+    "react-timeout": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
