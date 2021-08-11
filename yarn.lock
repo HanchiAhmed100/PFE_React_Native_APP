@@ -838,6 +838,13 @@
     xcode "^2.0.0"
     xmldoc "^0.4.0"
 
+"@react-native-community/push-notification-ios@^1.2.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/push-notification-ios/-/push-notification-ios-1.9.0.tgz#f09eae4b857c1b7a6e7e48dd2ac288aec01b2277"
+  integrity sha512-vKzMnADAd58FoYYQ+7nIIV2jcEzlZRNj9tZmqrnELjIc0nAbjDhW1la1zoVKzND9kAfbsvOaViZdoJ+bYjBz4A==
+  dependencies:
+    invariant "^2.2.4"
+
 "@react-navigation/core@3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.2.0.tgz#329dfe54f305ee22ed750d51cb09c5d18562d56f"
@@ -891,6 +898,11 @@
   integrity sha512-XYVgHF2sQ0YblLRMLNPB3CkFMewzFmlDsH/TneZFHUXDlABQgh88uOxuez7ZcXxayLFrqLwtDH1t+FmlFwNZxw==
   dependencies:
     "@babel/types" "^7.3.0"
+
+"@types/geojson@^7946.0.7":
+  version "7946.0.8"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.8.tgz#30744afdb385e2945e22f3b033f897f76b1f12ca"
+  integrity sha512-1rkryxURpr6aWP7R786/UQOkJ3PcpQiWkAXBmdWc7ryFWqN6a4xfK7BtjXvFBKO9LjQ+MWQSWxYeZX1OApnArA==
 
 "@types/istanbul-lib-coverage@^1.1.0":
   version "1.1.0"
@@ -1258,6 +1270,11 @@ babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   version "7.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-7.0.0-beta.0.tgz#aa213c1435e2bffeb6fca842287ef534ad05d5cf"
   integrity sha512-Xj9XuRuz3nTSbaTXWv3itLOcxyF4oPD8douBBmj7U9BBC6nEBYfyOJYQMf/8PJAFotC62UY5dFfIGEPr7WswzQ==
+
+babel-plugin-transform-inline-environment-variables@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-inline-environment-variables/-/babel-plugin-transform-inline-environment-variables-0.4.3.tgz#a3b09883353be8b5e2336e3ff1ef8a5d93f9c489"
+  integrity sha1-o7CYgzU76LXiM24/8e+KXZP5xIk=
 
 babel-preset-fbjs@^3.0.0, babel-preset-fbjs@^3.0.1:
   version "3.2.0"
@@ -1785,6 +1802,14 @@ cosmiconfig@^5.0.5:
     js-yaml "^3.9.0"
     lodash.get "^4.4.2"
     parse-json "^4.0.0"
+
+create-react-class@^15.5.2:
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  integrity sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
 
 create-react-class@^15.6.0, create-react-class@^15.6.3:
   version "15.6.3"
@@ -4982,9 +5007,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@^1.7.0:
   version "1.7.0"
@@ -5171,7 +5196,15 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@15.5.10:
+  version "15.5.10"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
+  integrity sha1-J5ffwxJhguOpXj37suiT3ddFYVQ=
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5293,12 +5326,31 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-native-animatable@1.3.3, react-native-animatable@^1.2.4:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/react-native-animatable/-/react-native-animatable-1.3.3.tgz#a13a4af8258e3bb14d0a9d839917e9bb9274ec8a"
+  integrity sha512-2ckIxZQAsvWn25Ho+DK3d1mXIgj7tITkrS4pYDvx96WyOttSvzzFeQnM2od0+FUMzILbdHDsDEqZvnz1DYNQ1w==
+  dependencies:
+    prop-types "^15.7.2"
+
+react-native-awesome-alerts@^1.2.0:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/react-native-awesome-alerts/-/react-native-awesome-alerts-1.5.2.tgz#eb8e05a8bc22ac304c59f82eab6be19308942c32"
+  integrity sha512-PPTzKLpwDKbjeghvrRkg7OunND4C7d4bQORVLBnhqUK2z2PfZiI3UCULU0tczzeOyavv5hVSrYNXKPXlvhfmVg==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-native-cardview@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/react-native-cardview/-/react-native-cardview-2.0.2.tgz#e07c13c61fbfce2152c1a2c18579895c7d9e7956"
   integrity sha512-GSJv5lMxbCFPdOzEQizJhfFgHIA8xK16jO2lXpK0prcN8vTEoGsyzhiZJJEbY4SFbMfr+Q6cW4gAjBLNxWrTuw==
   dependencies:
     prop-types "^15.6.0"
+
+react-native-config@^0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.11.7.tgz#a2b323f2ecd76a4df88cbb6bc86eaa2ef9febee7"
+  integrity sha512-dn5s+zhwLyE25vRT/vaEtLk/j8ZL1UZKvejORNDWakSwpOnLmFurFeaZV83IqkPlfWHXHFdsYe2IRYG1WN4WkQ==
 
 react-native-drawer@2.5.1:
   version "2.5.1"
@@ -5307,6 +5359,13 @@ react-native-drawer@2.5.1:
   dependencies:
     prop-types "^15.5.8"
     tween-functions "^1.0.1"
+
+react-native-dropdownalert@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-dropdownalert/-/react-native-dropdownalert-3.11.0.tgz#ebcb136aafc8fd522731574570990cb5efe62a27"
+  integrity sha512-f2nQHHeiw/tgfl12P+t2ov1o0eqLknflwM/UiN3cvEzNH1HrEQK2rWaghjWrvmv+HKhSuDl01R3C9dJg8M5+FQ==
+  dependencies:
+    prop-types "15.5.10"
 
 react-native-easy-grid@0.2.1:
   version "0.2.1"
@@ -5328,6 +5387,11 @@ react-native-elements@^1.1.0:
     react-native-ratings "^6.3.0"
     react-native-status-bar-height "^2.2.0"
 
+react-native-exception-handler@^2.10.8:
+  version "2.10.10"
+  resolved "https://registry.yarnpkg.com/react-native-exception-handler/-/react-native-exception-handler-2.10.10.tgz#b6bfe2b7e6ea4a4deb1f518f48ce2ee1d4843497"
+  integrity sha512-otAXGoZDl1689OoUJWN/rXxVbdoZ3xcmyF1uq/CsizdLwwyZqVGd6d+p/vbYvnF996FfEyAEBnHrdFxulTn51w==
+
 react-native-fbsdk@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/react-native-fbsdk/-/react-native-fbsdk-0.8.0.tgz#4ee95ebb7be4b00fa9f871ca594f068c9782c7de"
@@ -5340,6 +5404,14 @@ react-native-fbsdk@^0.8.0:
     progress "^2.0.0"
     pump "^1.0.2"
     xcode "^0.9.3"
+
+react-native-flash-message@^0.1.13:
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/react-native-flash-message/-/react-native-flash-message-0.1.23.tgz#50a17201a2d9d6b22a2f174a97b22c30bff15638"
+  integrity sha512-T++KNGpIofXRqj3fT+/zJH/su1VgIjGcwiJerSvRsvEXwai1LdUl+O0tX7dz+Lgxi7yzswXKWcUQmY0dZrbG3g==
+  dependencies:
+    prop-types "^15.7.2"
+    react-native-iphone-x-helper "^1.3.0"
 
 react-native-gesture-handler@~1.0.14:
   version "1.0.17"
@@ -5355,6 +5427,11 @@ react-native-iphone-x-helper@^1.0.3:
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.0.tgz#9f8a376eb00bc712115abff4420318a0063fa796"
   integrity sha512-xIeTo4s77wwKgBZLVRIZC9tM9/PkXS46Ul76NXmvmixEb3ZwqGdQesR3zRiLMOoIdfOURB6N9bba9po7+x9Bag==
 
+react-native-iphone-x-helper@^1.3.0:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.3.1.tgz#20c603e9a0e765fd6f97396638bdeb0e5a60b010"
+  integrity sha512-HOf0jzRnq2/aFUcdCJ9w9JGzN3gdEg0zFE4FyYlp4jtidqU03D5X7ZegGKfT1EWteR0gPBGp9ye5T5FvSWi9Yg==
+
 react-native-keyboard-aware-scroll-view@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/react-native-keyboard-aware-scroll-view/-/react-native-keyboard-aware-scroll-view-0.8.0.tgz#00bcaa38c91323913bb7a733059ad2bc4875f88c"
@@ -5363,10 +5440,42 @@ react-native-keyboard-aware-scroll-view@0.8.0:
     prop-types "^15.6.2"
     react-native-iphone-x-helper "^1.0.3"
 
-react-native-maps@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.23.0.tgz#edbfdcad0e42190627eb1c8067eaba5965c8f81e"
-  integrity sha512-qxOIQGsDtQXQlSJdXMW1wg8pvLaVYdbiIolB7tZTTgTGgIA/hDxXwZbQZ08c4KDD6/VTk8krfd1APaHkqvh6og==
+"react-native-maps@git://github.com/react-native-community/react-native-maps.git#master":
+  version "0.29.2"
+  uid "724829978bdf63b8654d36aa243ec8ec98269323"
+  resolved "git://github.com/react-native-community/react-native-maps.git#724829978bdf63b8654d36aa243ec8ec98269323"
+  dependencies:
+    "@types/geojson" "^7946.0.7"
+
+react-native-modal-overlay@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-modal-overlay/-/react-native-modal-overlay-1.3.1.tgz#bfb876603e035d026e1db16c5cce053414c0d842"
+  integrity sha512-K4J5IfJcNYNjoKDXWON5dyFf4W8UnNU5+rXcHq9ePRriUiTQPjHG2JaaqctA6GpGHU6CswApEOoxJyRw6rc9aw==
+  dependencies:
+    react-native-animatable "^1.2.4"
+
+react-native-modal@^11.0.1:
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-modal/-/react-native-modal-11.10.0.tgz#94a6d3a2428ba5228cfb4dc174cacea79c871591"
+  integrity sha512-syRYDJYSh16bR37R5EKU9T/wC+5bEOfF17IUqf5URdhbEDd+hxyMInC++l45E8oI+MtdOaEp9yAws5xDqk8dnA==
+  dependencies:
+    prop-types "^15.6.2"
+    react-native-animatable "1.3.3"
+
+react-native-notifications@^1.3.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-notifications/-/react-native-notifications-1.5.0.tgz#2517381f8611433910f16c0e8d94d7966e6f2490"
+  integrity sha512-s70W95+KIWYXeHlGmXaz51mVh3nZl3VDeRFufmWZSRtHCgukOx3C7XQHByZPEW8Bnatyhm1JP0ckdNuJ8hLi4Q==
+  dependencies:
+    core-js "^1.0.0"
+    uuid "^2.0.3"
+
+react-native-push-notification@^3.1.3:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/react-native-push-notification/-/react-native-push-notification-3.5.2.tgz#5f6226d12a00c25c15279325b57c5fbddd5b1c82"
+  integrity sha512-eh9l7WeL7Lxq17ntsafCrNQF6aW8XS6b7PG/s1Y8amAqpDt8GJ8hz125z566N1jsj3PDh9pfd4SjNS+tLaV47A==
+  dependencies:
+    "@react-native-community/push-notification-ios" "^1.2.0"
 
 react-native-qrcode@^0.2.7:
   version "0.2.7"
@@ -5413,6 +5522,11 @@ react-native-tab-view@^1.0.0, react-native-tab-view@^1.2.0:
   integrity sha512-2U+HxDQdjzExoC6gZ+wUhC8v8JjntppsFVU4v4pRvC/1dkN7DJv1k8UEy9+p7ucEaNrcAzu/j5N09Jf4qG36vw==
   dependencies:
     prop-types "^15.6.1"
+
+react-native-textinput-effects@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-textinput-effects/-/react-native-textinput-effects-0.5.1.tgz#52b54bb56b58a4b67b5d3fa4ffccba3d288cd8c9"
+  integrity sha512-9ywFH1S4WV/IkYcGwFYZrOYx5j84WvbhzWbLO52rN1PxgjI1tfZu8c5Ju8fsA7eLKuXt7YRen4iVTYYahrFq1w==
 
 react-native-vector-icons@6.1.0:
   version "6.1.0"
@@ -5538,6 +5652,15 @@ react-test-renderer@16.8.3:
     prop-types "^15.6.2"
     react-is "^16.8.3"
     scheduler "^0.13.3"
+
+react-timeout@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-timeout/-/react-timeout-1.2.0.tgz#7b5691cd6ab9f22773d82432f5707a00d601dafe"
+  integrity sha512-HJTmeeNsG3fHmnVkw8cCwAJNmcxf6H/A3vbiS9QKsfxMsgDtDK2oopeReMeLsH/TK1nq8BumL1yYVbcuOX8wGA==
+  dependencies:
+    create-react-class "^15.5.2"
+    hoist-non-react-statics "^2.3.1"
+    object-assign "^4.0.1"
 
 react-timer-mixin@^0.13.4:
   version "0.13.4"
@@ -6629,6 +6752,11 @@ uuid@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
   integrity sha1-ZUS7ot/ajBzxfmKaOjBeK7H+5sE=
+
+uuid@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
+  integrity sha1-Z+LoY3lyFVMN/zGOW/nc6/1Hsho=
 
 uuid@^3.3.2:
   version "3.3.2"
