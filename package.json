@@ -10,7 +10,7 @@
     "@react-native-community/async-storage": "^1.2.1",
     "axios": "^0.18.0",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "native-base": "^2.12.1",
     "react": "16.8.3",
     "react-native": "0.59.1",
