@@ -20,7 +20,7 @@
     "react-native-dropdownalert": "^3.11.0",
     "react-native-elements": "^1.1.0",
     "react-native-exception-handler": "^2.10.8",
-    "react-native-fbsdk": "^0.8.0",
+    "react-native-fbsdk": "^3.0.0",
     "react-native-flash-message": "^0.1.13",
     "react-native-gesture-handler": "~1.0.14",
     "react-native-maps": "git://github.com/react-native-community/react-native-maps.git#master",
